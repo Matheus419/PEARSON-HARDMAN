@@ -1,0 +1,57 @@
+:root{
+    --main-color:#d92123;
+    --primary-text-color:#fff;
+    --secondary-text-color:#191919;
+    --second-color:#868686;
+    --tertiaty-color:#eff3f4;
+    --secondary-bg-color:#5c1011;
+
+}
+
+* {
+    font-family: "Lato";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+/* id */
+#header{
+    min-height: 90vh;
+    background-image: url("../imagens/main_banner4.png");
+    background-size: cover;
+    background-position: center;
+    color: var(--primary-text-color);
+    margin-bottom: 2rem;
+}
+
+#inner-header{
+    display: flex;/* Padrão Linha */
+    justify-content: space-between; /* Alinhamento eixo X */
+    align-items: center; /* Alinhamento Eixo Y */
+}
+
+#brand {
+    background-color: var(--main-color);
+}
+
+#navbar {
+    display: flex;
+    gap: 2rem;
+    text-transform: uppercase;
+    margin-right: 2rem;
+}
+
+#navbar a {
+    color: var(--primary-text-color);
+    font-weight: bold;
+    padding: 1rem;
+}
